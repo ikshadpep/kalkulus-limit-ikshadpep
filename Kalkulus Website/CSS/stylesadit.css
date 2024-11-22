@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url(bg\ kalkulator.jpg);
+}
+
+section {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background-color: #ffffff;
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-center img {
+    max-width: 100%;
+    /* Membuat gambar responsif */
+    height: auto;
+    /* Menjaga rasio aspek */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    /* Tambahkan efek bayangan */
+    border-radius: 8px;
+    /* Opsional: Sudut melengkung */
+}
+
+
+/* Mengubah warna latar belakang setiap bab secara berurutan */
+
+#hero-text {
+    background-color: #e0f7fa;
+}
+
+#pengantar {
+    background-color: #ffffff;
+}
+
+#definisi {
+    background-color: #ffffff;
+}
+
+#sifat {
+    background-color: #ffffff;
+}
+
+#jenis {
+    background-color: #ffffff;
+}
+
+#contoh {
+    background-color: #ffffff;
+}
+
+
+/* Memberikan margin dan padding pada judul setiap bab */
+
+section h2 {
+    font-size: 1.8rem;
+    margin-top: 0;
+    color: #333;
+}
+
+
+/* Menambahkan garis horizontal di bawah judul bab */
+
+section h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #2d87f0;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+/* Memberi jarak antar paragraf dalam bab */
+
+section p {
+    margin-bottom: 2rem;
+}
+
+header {
+    background-color: #2d87f0;
+    position: sticky;
+    top: 0px;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    color: #2d87f0;
+}
+
+main p {
+    margin-bottom: 1rem;
+}
+
+.image-center {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2d87f0;
+    color: #fff;
+    font-size: 0.9rem;
+}

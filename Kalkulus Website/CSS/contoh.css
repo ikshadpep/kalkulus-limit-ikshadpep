@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9f5ff;
+    /* Warna latar belakang biru muda */
+    color: #333;
+    background-image: url(bg\ kalkulator.jpg);
+}
+
+header {
+    background: #007bff;
+    /* Warna biru */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+    /* Warna saat hover */
+}
+
+main {
+    padding: 100px 20px 20px;
+    /* Tambahkan padding atas untuk menghindari header tetap */
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    /* Maksimal lebar konten */
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #007bff;
+    /* Warna biru untuk judul */
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #007bff;
+    /* Warna biru untuk teks tebal */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007bff;
+    /* Warna biru */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 5px 0;
+    }
+    section {
+        padding: 15px;
+    }
+}

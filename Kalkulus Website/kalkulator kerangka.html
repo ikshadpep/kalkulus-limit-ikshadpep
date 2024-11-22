@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Limit Matematika</title>
+    <link href="CSS/kalkulator css.css" rel="stylesheet" type="text/css">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>MitMath</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contoh.html">Contoh Limit</a></li>
+                <li><a href="anggota.html">Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="calculatorSection" style="display: block;">
+        <h1 id="calculatorTitle">Kalkulator Limit</h1>
+        <div>
+            <label for="function">Fungsi (misal: x^2 - 4): </label>
+            <input type="text" id="function" placeholder="Masukkan fungsi" />
+        </div>
+
+        <div>
+            <button class="number-button" onclick="appendToFunction('0')">0</button>
+            <button class="number-button" onclick="appendToFunction('1')">1</button>
+            <button class="number-button" onclick="appendToFunction('2')">2</button>
+            <button class="number-button" onclick="appendToFunction('3')">3</button>
+            <button class="number-button" onclick="appendToFunction('4')">4</button>
+        </div>
+
+        <div>
+            <button class="number-button" onclick="appendToFunction('5')">5</button>
+            <button class="number-button" onclick="appendToFunction('6')">6</button>
+            <button class="number-button" onclick="appendToFunction('7')">7</button>
+            <button class="operator-button" onclick="appendToFunction('8')">8</button>
+            <button class="operator-button" onclick="appendToFunction('9')">9</button>
+        </div>
+
+        <div>
+            <button onclick="appendToFunction('x')">x</button>
+            <button onclick="appendToFunction('+')">+</button>
+            <button onclick="appendToFunction('-')">-</button>
+            <button onclick="appendToFunction('*')">*</button>
+            <button onclick="appendToFunction('/')">/</button>
+            <button onclick="appendToFunction('^')">^</button>
+            <button onclick="clearFunction()">C</button>
+        </div>
+
+        <div>
+            <label for="limit">Titik Limit (misal: x=2): </label>
+            <input type="number" id="limit" placeholder="Masukkan titik limit" />
+            <button onclick="calculateLimit()">Hitung Limit</button>
+        </div>
+
+        <div id="limitResult">
+            <p id="limitResultText">Hasil Limit: </p>
+            <p id="outputLimit"></p>
+        </div>
+
+        <div id="plot" style="height: 400px;"></div>
+    </div>
+
+    <div id="profileSection" style="display: none;">
+        <h2>Profil</h2>
+        <p>Ini adalah halaman profil.</p>
+    </div>
+
+    <div id="materialSection" style="display: none;">
+        <h2>Materi</h2>
+        <p>Ini adalah halaman materi.</p>
+    </div>
+
+    <script src="kalkulator js.js"></script>
+</body>
+
+</html>

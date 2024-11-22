@@ -1,0 +1,141 @@
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MitMath</title>
+    <link href="CSS/stylesadit.css" rel="stylesheet" type="text/css">
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<body>
+    <header>
+        <h1>MitMath</h1>
+        <nav>
+            <ul>
+                <li><a href="#pengantar">Pengantar</a></li>
+                <li><a href="#definisi">Definisi Limit</a></li>
+                <li><a href="#sifat">Sifat Limit</a></li>
+                <li><a href="#jenis">Jenis Limit</a></li>
+                <li><a href="Contoh.html">Contoh Limit</a></li>
+                <li><a href="kalkulator kerangka.html">Kalkulator</a></li>
+                <li><a href="anggota.html">Anggota</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h2>Tentang Website Kami</h2>
+                <div class="image-center">
+                    <img src="logo kalkulus.png" width="540" height="270">
+                </div>
+                <!-- <img src="logo kalkulus.png" width="540" height="270" > -->
+                <!-- <p><strong>Eksplor dunia kalkulus!</strong></p> -->
+                <p>Website ini merupakan proyek akhir untuk tugas mata kuliah Kalkulus 1. Meskipun masih jauh dari kesempurnaan, kami berusaha menyajikan informasi yang mudah dipahami. Kami memahami bahwa matematika bisa menjadi tantangan, dan tujuan kami
+                    adalah membuatnya lebih mudah dan menyenangkan untuk dieksplorasi.</p>
+                <p>Kami berharap bahwa website ini dapat membantu seseorang dalam memahami konsep-konsep kalkulus dengan baik khususnya limit. Meskipun website ini masih banyak kekurangan dalam segi desain dan isinya, tetapi web ini sudah bisa membantu anda
+                    untuk menyelesaikan soal kalkulus limit.</p>
+            </div>
+            <div class="hero-illustration">
+
+            </div>
+        </section>
+
+
+        <section id="pengantar">
+            <h2>Pengantar</h2>
+            <p>Limit adalah konsep dasar dalam kalkulus yang digunakan untuk mendeskripsikan perilaku fungsi saat mendekati suatu titik tertentu. Limit membantu kita memahami bagaimana fungsi berperilaku di sekitar titik tersebut, meskipun fungsi itu sendiri
+                mungkin tidak terdefinisi di titik tersebut.</p>
+        </section>
+
+        <section id="definisi">
+            <h2>Definisi Limit</h2>
+            <p>Limit dari fungsi f(x) saat x mendekati a adalah nilai yang didekati oleh f(x) ketika x semakin dekat ke a. Ditulis sebagai:</p>
+            <p><strong>lim (x → a) f(x) = L</strong></p>
+            <p>Ini berarti bahwa ketika x mendekati a, nilai f(x) mendekati L.</p>
+        </section>
+        <section id="sifat">
+            <h2>Sifat Limit</h2>
+            <ul>
+                <li><strong>Limit Penjumlahan :</strong> lim (x → a) [f(x) + g(x)] = lim (x → a) f(x) + lim (x → a) g(x)</li>
+                <li><strong>Limit Perkalian :</strong> lim (x → a) [f(x) * g(x)] = lim (x → a) f(x) * lim (x → a) g(x)</li>
+                <li><strong>Limit Pembagian :</strong> lim (x → a) [f(x) / g(x)] = lim (x → a) f(x) / lim (x → a) g(x) (jika lim (x → a) g(x) ≠ 0)</li>
+                <li><strong>Limit Konstanta :</strong> lim (x → a) c = c (di mana c adalah konstanta)</li>
+            </ul>
+        </section>
+        <section id="jenis">
+            <h2>Jenis Limit</h2>
+            <ul>
+                <p>
+                    <li><strong>Limit Fungsi : </strong> konsep dalam kalkulus yang menggambarkan perilaku suatu fungsi saat variabel independennya mendekati nilai tertentu. Dalam pengertian formal, limit menunjukkan nilai yang didekati oleh fungsi 𝑓(𝑥)
+                        ketika 𝑥 mendekati suatu titik tertentu, baik dari arah kiri (𝑥→c pangkat-) maupun arah kanan(𝑥 → c pangkat+)</li>
+                </p>
+                <li><strong>Limit Tak Hingga :</strong> konsep dalam kalkulus yang menggambarkan perilaku suatu fungsi ketika variabel independennya (𝑥) mendekati tak hingga (+∞ atau -∞). Ini juga digunakan untuk melihat apakah nilai fungsi menjadi tak hingga
+                    saat 𝑥 mendekati suatu nilai tertentu.</li>
+                <strong>Ciri - Ciri Limit Tak Hingga :</strong>
+                <br><strong>1.)</strong> Ketika fungsi memiliki asimtot horizontal, limit saat 𝑥 → ±∞ sering kali mendekati nilai tertentu<br><strong>2.)</strong> Ketika fungsi memiliki asimtot vertikal, limitnya saat mendekati titik tertentu (𝑥 = c)
+                dapat menjadi ∞ atau -∞.</p>
+                <li><strong>Limit Trigonometri :</strong></li> Jenis yang melibatkan fungsi-fungsi trigonometri seperti sin(𝑥), cos(𝑥), tan(𝑥), dan sebagainya. Dalam kalkulus, limit trigonometri sering digunakan untuk menghitung nilai limit fungsi-fungsi
+                yang melibatkan sudut atau fungsi trigonometri saat variabel mendekatisuatu nilai tertentu.
+                <p>
+                    <li><strong>Limit Kanan Kiri :</strong></li> Limit kanan kiri adalah konsep dalam kalkulus yang digunakan untuk memeriksa perilaku suatu fungsi di sekitar titik tertentu. Limit ini terbagi menjadi dua jenis :
+                    <br><strong>Limit Kanan :</strong> Didefinisikan sebagai nilai yang didekati oleh fungsi ketika 𝑥 mendekati suatu titik c dari arah kanan (𝑥 > c). Dilambangkan dengan : <strong>lim 𝑥 → c+ f(𝑥)</strong>
+                    <br><strong>Limit Kiri :</strong> Didefinisikan sebagai nilai yang didekati oleh fungsi ketika 𝑥 mendekati titik c dari arah kiri (nilai 𝑥
+                    < c). Dilambangkan dengan : <strong>lim 𝑥 → c- f(𝑥)</strong>
+        </section>
+        <section id="contoh">
+            <h2>Contoh Limit</h2>
+            <p>
+                <li><strong>Limit Fungsi</strong></li>
+            </p>
+            <!-- <p>Misalkan kita ingin menghitung limit berikut:</p> -->
+            <!-- <p>Untuk menghitungnya, kita substitusi x dengan 2:</p>
+            <p>3(2) + 1 = 6 + 1 = 7</p> -->
+            lim 𝑥 → 2 (2𝑥+3)
+            <br>Substitusi 𝑥 = 2 langsung ke fungsi :
+            <br>lim x → 2 (2𝑥 + 3) = 2(2) + 3 =7</p>
+            <p>
+                <li><strong>Limit Tak Hingga</strong></li>
+            </p>
+            𝑓(𝑥) = 1/𝑥. Cari :
+            <br>lim 𝑥 → ∞ 1/𝑥
+            <br>ketika 𝑥 menjadi sangat besar (𝑥 → ∞), nilai 1/𝑥 mendekati nol. Maka :
+            <br> lim 𝑥 → ∞ 1/𝑥 = 0
+            <p>
+                <li><strong>Limit Trigonometri</strong></li>
+            </p>
+            lim 𝑥 → 0 sin 2𝑥/𝑥
+            <br>Penyelesaian : Gunakan sifat limit :
+            <br>lim 𝑥 → 0 sin(2𝑥)/𝑥 = lim 𝑥 → 0 sin(2𝑥)/2𝑥 . 2
+            <br>Diketahui bahwa lim 𝑥 → 0 sin(2𝑥)/2𝑥 = 1, maka :
+            <br>lim 𝑥 → 0 sin(2𝑥)/𝑥 = 1 . 2 = 2
+            <p>
+                <li><strong>Limit Kanan Kiri</strong></li>
+            </p>
+            f(𝑥)={𝑥 + 1, jika 𝑥
+            < 2 <br>={2𝑥 - 3, jika 𝑥 ≥ 2
+                <br>Untuk menentukan limit 𝑥 → 2 :
+                <p><strong>Limit Kiri (𝑥 → 2-) : </strong>
+                    <br>ketika 𝑥
+                    < 2, gunakan bagian fungsi 𝑥 + 1. <br>lim 𝑥 → 2- f(𝑥) = 2 + 1 = 3
+                        <p><strong>Limit Kanan (𝑥 → 2+) : </strong>
+                            <br>Ketika 𝑥 ≥ 2, gunakan bagian fungsi 2𝑥 - 3.
+                            <br>lim 𝑥 → 2+ f(𝑥) = 2(2) - 3 = 1
+                            <br>Jika<strong> Limit kanan</strong> dan <strong>Limit Kiri</strong> tidak sama, maka limit 𝑥 → 2 <strong>Tidak ada.</strong>
+        </section>
+    </main>
+
+    <footer>
+        <p>© TUGAS KALKULUS.</p>
+        <p>LIMIT</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+header {
+    background-color: #2d87f0;
+    position: sticky;
+    top: 0px;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    top: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    font-family: Arial, sans-serif;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+#pengantar {
+    transform: scale(0.75);
+}
+
+body {
+    background: linear-gradient(-45deg, #2d87f0, rgb(220, 198, 3));
+    background-image: url(bg\ kalkulator.jpg);
+}
+
+
+/* Styling untuk kalkulator */
+
+#calculatorSection {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    width: 87%;
+    margin: 0 auto;
+}
+
+#calculatorTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #2d87f0;
+}
+
+
+/* Menambahkan animasi ketik dan blink caret */
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+#function,
+#limit {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(90deg, #2d87f0, #1b5ca7);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 4px 15px rgba(255, 0, 102, 0);
+    transition: box-shadow 0.3s ease, transform 0, 3s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 10px 20px rgba(255, 0, 102, 0, 5);
+    transform: translateY(-3px);
+    background-color: #e7af07;
+}
+
+
+/* Hasil limit */
+
+#limitResult {
+    margin-top: 20px;
+}
+
+#limitResultText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#outputLimit {
+    font-size: 18px;
+    color: #333;
+}
